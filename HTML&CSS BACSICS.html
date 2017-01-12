@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- this is an example of how I use html and css using/following a tutorial from lynda.com -->
+<html lang= "en">
+	<head>
+		<meta charset= "UTF-8">
+		<title> HTML Document Structure </title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<style> 
+			p {color:black} 
+			h1 {color: green}
+			.blue {color:blue}
+			#x01 {font-style: italic}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+      		<h1 style="color:black">HTML</h1>
+     	    <a href=""><h2>CSS</h2></a>
+		    <nav>
+		        <ul>
+		          <li> <a href="#" title="Home">Home</a> </li>
+		          <li> <a href="#" title="About">About</a> </li>
+		          <li> <a href="#" title="Sign Up">Sign Up</a> </li>
+		          <li> <a href="#" title="Contact">Contact</a> </li>
+		          <li> <a href="#" title="Careers">Careers</a> </li>
+		        </ul>
+		    </nav>
+    	</header>
+
+		<h1> HTML Document Structure </h1>
+		<p>
+    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in risus lacus. In auctor
+    		orci id tortor viverra nec consectetur eros rhoncus. Vivamus elementum velit arcu, ac
+    		porta risus. Quisque ut est vitae dolor tempus adipiscing. Ut mauris quam, malesuada
+            non laoreet ac, elementum vel enim. Nulla auctor congue accumsan. Pellentesque
+   			habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+    		Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
+	   		amet enim dapibus adipiscing. Ut sit amet mauris sit amet odio malesuada lacinia. Praesent ac
+    		nunc arcu, et eleifend odio.
+		</p>
+		<!-- using <pre> tag in any case you want to display the 'white space'; all of these blank spaces are beeing displayed -->
+		<h2> Second Header h2  < pre > tag</h2>
+		<pre>
+    		Lorem ipsum dolor sit amet,             adipiscing elit. In in risus lacus. In auctor
+    		orci id tortor viverra nec                  rhoncus. Vivamus elementum velit arcu, ac
+    		porta risus. Quisque ut est vitae dolor              adipiscing. Ut mauris quam, malesuada
+            non laoreet ac, elementum vel enim.           auctor congue accumsan. Pellentesque
+   			habitant              tristique senectus                 fames ac turpis egestas. 
+    		Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
+	   		amet enim dapibus adipiscing.               mauris sit amet odio malesuada lacinia. Praesent ac
+    		nunc arcu, et eleifend odio.
+		</pre>
+		<!-- the content of a paragraph is typicaly text, but it may also contained any INLINE CONTENT; ex: choose some words and make it into a link -->
+		<h3> Third Header "a href" </h3>
+		<p>
+    		At vero eos et accusamus et iusto odio <a href ="">dignissimos ducimus qui blanditiis</a>
+	        praesentium voluptatum deleniti atque corrupti quos dolores et quas
+	        molestias excepturi sint occaecati cupiditate non provident, similique sunt
+	        in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+	        fuga. Et harum quidem rerum facilis est et expedita distinctio.
+		</p>
+		<h4> Fourth Header (text align right) </h4>
+		<p align="right"> <!-- or using css --> <p style= "text-align: right">
+    		Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+        	consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+        	ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+        	veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
+        	ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+        	qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+        	qui dolorem eum fugiat quo voluptas nulla pariatur?"
+		</p>
+		<!-- sometimes is more conveninet to apply style into individual element; you may use style atribute for this -->
+		<!-- you may apply style to another elements with CLASS SELECTOR "." -->
+		<h5 style="color: blue">Fifth header "class selector", "id selector"& "div style" </h5>
+      	<p class="blue">
+	        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+	        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+	        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+	        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+	        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+		</p>
+		<!--  what an ID SELECTOR does? It allows you to select an individual element; it can only be apply on one element. If I have an ID (ex. x01), only one element to entire document can have that ID -->
+		<h6> Sixth Header ID SELECTOR </h6>
+		<p id="x01"; class="blue">
+    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in risus lacus. In auctor
+    		orci id tortor viverra nec consectetur eros rhoncus. Vivamus elementum velit arcu, ac
+    		porta risus. Quisque ut est vitae dolor tempus adipiscing. Ut mauris quam, malesuada
+            non laoreet ac, elementum vel enim. Nulla auctor congue accumsan. Pellentesque
+   			habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+    		Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
+	   		amet enim dapibus adipiscing. Ut sit amet mauris sit amet odio malesuada lacinia. Praesent ac
+    		nunc arcu, et eleifend odio.
+		</p>
+		<!--  The <div> TAG is a block level element, so' all these elements inside of it, are going to be part of the < div > element now -->
+		<!-- SPAN is an inline level, are commonly use for apllying style -->
+		<div style="color: red">
+		<h7> <b> Seventh Header < div > TAG </b></h7>
+		<p style="color:red">
+    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in risus lacus. In auctor
+    		orci id tortor viverra nec consectetur eros rhoncus. <span style= "font-style: italic"> Vivamus elementum velit arcu, ac
+    		porta risus. Quisque ut est vitae dolor tempus adipiscing. Ut mauris quam, malesuada
+            non laoreet ac, elementum vel enim.</span> Nulla auctor congue accumsan. Pellentesque
+   			habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+    		Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
+	   		amet enim dapibus adipiscing. Ut sit amet mauris sit amet odio malesuada lacinia. Praesent ac
+    		nunc arcu, et eleifend odio.
+		</p>
+		</div>
+	</body>
+</html>
