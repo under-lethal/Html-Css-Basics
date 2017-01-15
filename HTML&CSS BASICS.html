@@ -3,6 +3,7 @@
 <html lang= "en">
 	<head>
 		<meta charset= "UTF-8">
+		<!-- <meta http-equiv="refresh" content="3"; url=https://ro.wikipedia.org/wiki/Pagina_principal%C4%83 /> -->
 		<title> HTML Document Structure </title>
 		<link rel="stylesheet" type="text/css" href="main.css"/>
 		<style> 
@@ -10,110 +11,230 @@
 			h1 {color: green}
 			.blue {color:blue}
 			#x01 {font-style: italic}
-		</style>
-	</head>
+		---------------------------------------------------------------------------------------------------------------	
+			p.diplay {background-color: #eef; width: 25em; font-size: 120%; text-align: center; padding: 1ex;} 
+			p.first: fisrt-line {font-variant: small-caps;}
+			output {
+    		color: #900;
+    		background-color: yellow;
+    		border: solid black: 1px;
+    		}
+    	---------------------------------------------------------------------------------------------------------------
+    	</style>
+		<script type="text/javascript">
+        	function init() {
+            var n = 0;
+            e = document.getElementById("output");
+            setInterval(function() { e.innerHTML = ++n; }, 1000);
+        	}
+        	window.onload = init;
+    	</script>
+    </head>	
 	
 	<body>
 		<header>
-      		<h1 style="color:black">HTML</h1>
-     	    <a href=""><h2>CSS</h2></a>
-		    <nav>
-		        <ul>
-		          <li> <a href="#" title="Home">Home</a> </li>
-		          <li> <a href="#" title="About">About</a> </li>
-		          <li> <a href="#" title="Sign Up">Sign Up</a> </li>
-		          <li> <a href="#" title="Contact">Contact</a> </li>
-		          <li> <a href="#" title="Careers">Careers</a> </li>
-		        </ul>
-		    </nav>
-    	</header>
+			<h1 style="color:black">HTML</h1>
+			<a href=""><h2>CSS</h2></a>
+			<nav>
+				<ul>
+				  <li> <a href="#" title="Home">Home</a> </li>
+				  <li> <a href="#" title="About">About</a> </li>
+				  <li> <a href="#" title="Sign Up">Sign Up</a> </li>
+				  <li> <a href="#" title="Contact">Contact</a> </li>
+				  <li> <a href="#" title="Careers">Careers</a> </li>
+				</ul>
+			</nav>
+		</header>
 
 		<h1> HTML Document Structure </h1>
 		<p>
-    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in risus lacus. In auctor
-    		orci id tortor viverra nec consectetur eros rhoncus. Vivamus elementum velit arcu, ac
-    		porta risus. Quisque ut est vitae dolor tempus adipiscing. Ut mauris quam, malesuada
-            non laoreet ac, elementum vel enim. Nulla auctor congue accumsan. Pellentesque
-   			habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-    		Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
-	   		amet enim dapibus adipiscing. Ut sit amet mauris sit amet odio malesuada lacinia. Praesent ac
-    		nunc arcu, et eleifend odio.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in risus lacus. In auctor
+			orci id tortor viverra nec consectetur eros rhoncus. Vivamus elementum velit arcu, ac
+			porta risus. Quisque ut est vitae dolor tempus adipiscing. Ut mauris quam, malesuada
+			non laoreet ac, elementum vel enim. Nulla auctor congue accumsan. Pellentesque
+			habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+			Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
+			amet enim dapibus adipiscing. Ut sit amet mauris sit amet odio malesuada lacinia. Praesent ac
+			nunc arcu, et eleifend odio.
 		</p>
 		<!-- using <pre> tag in any case you want to display the 'white space'; all of these blank spaces are beeing displayed -->
 		<h2> Second Header h2  < pre > tag</h2>
 		<pre>
-    		Lorem ipsum dolor sit amet,             adipiscing elit. In in risus lacus. In auctor
-    		orci id tortor viverra nec                  rhoncus. Vivamus elementum velit arcu, ac
-    		porta risus. Quisque ut est vitae dolor              adipiscing. Ut mauris quam, malesuada
-            non laoreet ac, elementum vel enim.           auctor congue accumsan. Pellentesque
-   			habitant              tristique senectus                 fames ac turpis egestas. 
-    		Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
-	   		amet enim dapibus adipiscing.               mauris sit amet odio malesuada lacinia. Praesent ac
-    		nunc arcu, et eleifend odio.
+			Lorem ipsum dolor sit amet,             adipiscing elit. In in risus lacus. In auctor
+			orci id tortor viverra nec                  rhoncus. Vivamus elementum velit arcu, ac
+			porta risus. Quisque ut est vitae dolor              adipiscing. Ut mauris quam, malesuada
+			non laoreet ac, elementum vel enim.           auctor congue accumsan. Pellentesque
+			habitant              tristique senectus                 fames ac turpis egestas. 
+			Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
+			amet enim dapibus adipiscing.               mauris sit amet odio malesuada lacinia. Praesent ac
+			nunc arcu, et eleifend odio.
 		</pre>
 		<!-- the content of a paragraph is typicaly text, but it may also contained any INLINE CONTENT; ex: choose some words and make it into a link -->
 		<h3> Third Header "a href" </h3>
 		<p>
-    		At vero eos et accusamus et iusto odio <a href ="">dignissimos ducimus qui blanditiis</a>
-	        praesentium voluptatum deleniti atque corrupti quos dolores et quas
-	        molestias excepturi sint occaecati cupiditate non provident, similique sunt
-	        in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-	        fuga. Et harum quidem rerum facilis est et expedita distinctio.
+			At vero eos et accusamus et iusto odio <a href ="">dignissimos ducimus qui blanditiis</a>
+			praesentium voluptatum deleniti atque corrupti quos dolores et quas
+			molestias excepturi sint occaecati cupiditate non provident, similique sunt
+			in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+			fuga. Et harum quidem rerum facilis est et expedita distinctio.
 		</p>
 		<h4> Fourth Header (text align right) </h4>
 		<p align="right"> <!-- or using css --> <p style= "text-align: right">
-    		Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-        	consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
-        	ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-        	veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
-        	ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-        	qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
-        	qui dolorem eum fugiat quo voluptas nulla pariatur?"
+			Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+			consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+			ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+			veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
+			ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+			qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+			qui dolorem eum fugiat quo voluptas nulla pariatur?"
 		</p>
 		<!-- sometimes is more conveninet to apply style into individual element; you may use style atribute for this -->
 		<!-- you may apply style to another elements with CLASS SELECTOR "." -->
 		<h5 style="color: blue">Fifth header "class selector", "id selector"& "div style" </h5>
-      	<p class="blue">
-	        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-	        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-	        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-	        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-	        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+		<p class="blue">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+			doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+			veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+			ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+			consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 		</p>
 		<!--  what an ID SELECTOR does? It allows you to select an individual element; it can only be apply on one element. If I have an ID (ex. x01), only one element to entire document can have that ID -->
 		<h6> Sixth Header ID SELECTOR </h6>
 		<p id="x01"; class="blue">
-    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in risus lacus. In auctor
-    		orci id tortor viverra nec consectetur eros rhoncus. Vivamus elementum velit arcu, ac
-    		porta risus. Quisque ut est vitae dolor tempus adipiscing. Ut mauris quam, malesuada
-            non laoreet ac, elementum vel enim. Nulla auctor congue accumsan. Pellentesque
-   			habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-    		Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
-	   		amet enim dapibus adipiscing. Ut sit amet mauris sit amet odio malesuada lacinia. Praesent ac
-    		nunc arcu, et eleifend odio.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in risus lacus. In auctor
+			orci id tortor viverra nec consectetur eros rhoncus. Vivamus elementum velit arcu, ac
+			porta risus. Quisque ut est vitae dolor tempus adipiscing. Ut mauris quam, malesuada
+			non laoreet ac, elementum vel enim. Nulla auctor congue accumsan. Pellentesque
+			habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+			Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
+			amet enim dapibus adipiscing. Ut sit amet mauris sit amet odio malesuada lacinia. Praesent ac
+			nunc arcu, et eleifend odio.
 		</p>
 		<!--  The <div> TAG is a block level element, so' all these elements inside of it, are going to be part of the < div > element now -->
 		<!-- SPAN is an inline level, are commonly use for apllying style -->
 		<div style="color: red">
 		<h7> <b> Seventh Header < div > TAG </b></h7>
 		<p style="color:red">
-    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in risus lacus. In auctor
-    		orci id tortor viverra nec consectetur eros rhoncus. <span style= "font-style: italic"> Vivamus elementum velit arcu, ac
-    		porta risus. Quisque ut est vitae dolor tempus adipiscing. Ut mauris quam, malesuada
-            non laoreet ac, elementum vel enim.</span> Nulla auctor congue accumsan. Pellentesque
-   			habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-    		Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
-	   		amet enim dapibus adipiscing. Ut sit amet mauris sit amet odio malesuada lacinia. Praesent ac
-    		nunc arcu, et eleifend odio.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in risus lacus. In auctor
+			orci id tortor viverra nec consectetur eros rhoncus. <span style= "font-style: italic"> Vivamus elementum velit arcu, ac
+			porta risus. Quisque ut est vitae dolor tempus adipiscing. Ut mauris quam, malesuada
+			non laoreet ac, elementum vel enim.</span> Nulla auctor congue accumsan. Pellentesque
+			habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+			Aliquam adipiscing facilisis nibh consectetur fermentum. Phasellus egestas bibendum suscipit. 
+			amet enim dapibus adipiscing. Ut sit amet mauris sit amet odio malesuada lacinia. Praesent ac
+			nunc arcu, et eleifend odio.
 		</p>
 		</div>
 		<!-- HTML provides two distinctly display models: BLOCK MODE - INLINE MODE -->
+		<h8> <b> USING BLOCK and INLINE TAGS </b> </h8>
 		<p>
-    		At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-	        praesentium <img src= "http://iphonewallpapers-hd.com/thumbs/damn_small_linux_wide_background_dsl_wallpapers-t2.jpg" >voluptatum deleniti atque corrupti quos dolores et quas
-	        molestias excepturi sint occaecati cupiditate non provident, similique sunt
-	        in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-	        fuga. Et harum quidem rerum facilis est et expedita distinctio.
+			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+			praesentium <img src= "http://www.healthline.com/hlcmsresource/images/diabetesmine/wp-content/uploads/2013/09/Small-But-Mighty.jpg" /> voluptatum deleniti atque corrupti quos dolores et quas
+			molestias <b> excepturi sint occaecati</b> cupiditate non provident, similique sunt
+			in culpa qui officia deserunt mollitia animi, <i>id est laborum et dolorum</i>
+			fuga. <b><i>Et harum quidem rerum facilis est et expedita distinctio.</b></i>
 		</p>
+		<!-- ^these are INLINE ELEMENTS, they flow with the text/paragaph; It's possible to change INLINE ELEMENTS to BLOCK DISPLAY -->
+		<p>
+			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+			praesentium <img src= "http://www.healthline.com/hlcmsresource/images/diabetesmine/wp-content/uploads/2013/09/Small-But-Mighty.jpg" style= "display: block; float: right";/> voluptatum deleniti atque corrupti quos dolores et quas
+			molestias excepturi sint occaecati cupiditate non provident, similique sunt
+			in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+			fuga. Et harum quidem rerum facilis est et expedita distinctio.
+		<!-- at this point you notice that img. inlined by it self, interrupt the paragraph because the block mode element it's not allowed inside the paragraph; paragraph can only have INLINE ELEMENTS. And so because the BROWSER sees that BLOCK ELEM. it ENDS the paragraph and then it starts another paragraph after. -->    
+		</p>
+		<h9><b> An example of a BLOCK LVL. ELEMENT</b> </h9>
+		
+		<div>
+			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+			praesentium voluptatum deleniti atque corrupti quos dolores et quas
+			molestias excepturi sint occaecati cupiditate non provident, similique sunt
+			in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+			fuga. Et harum quidem rerum facilis est et expedita distinctio.
+		<div style="background: yellow">
+	        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+	        consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+	        ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+	        veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
+	        ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+	        qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+	        qui dolorem eum fugiat quo voluptas nulla pariatur?"
+		</div>
+		<div>
+			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+			praesentium voluptatum deleniti atque corrupti quos dolores et quas
+			molestias excepturi sint occaecati cupiditate non provident, similique sunt
+			in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+			fuga. Et harum quidem rerum facilis est et expedita distinctio.
+		</div>			
+      	<!-- block lvl element take a vertical space; it just don't flow with the text, but i can change it to INLINE LEVEL -->	 
+      	<div style="background: yellow; display: inline;">
+	        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+	        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+	        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+	        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+	        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      	</div>
+      	<!-- I can do the same thing with <span> instead of <div>; <span> it's like div but it's INLINE -->	 
+      	<span style="background: yellow;">
+	        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+	        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+	        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+	        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+	        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      	</span>
+      	<!-- I'll take this <div> and I will floated to the right -->	 
+      	<div style="float: right; width: 200px;">
+	        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+	        doloremque laudantium, totam rem <span style="background: yellow";> aperiam, eaque ipsa quae ab illo inventore
+	        veritatis et quasi architecto beatae vitae dicta sunt explicabo. </span> Nemo enim
+	        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+	        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      	</div>
+		<br />
+		<h9><b> DISPLAYING CHARACTER WITH REFERENCES </b></h9>
+		<p class="display">
+			<code> &lt;p&gt; Content goes here. &lt;/p&gt; </code>
+		</p>
+		<p> 
+			Many other interesting characters are available:
+		</p>
+		<p class="display">
+			&aacute; &agrave; &abreve; &AElig; &aelig; &approx; &approxeq; &alpha; &beta; &delta; &gamma; &ohm; &mu;
+		<br />
+			&copy; &reg; &commat; &dollar; &cent; &euro; &male; &female; &ofcir; &vartheta;
+		<br />	
+			&Ascr; &Bscr; &Cscr; &Dscr; &Escr; &Fscr; &Gscr; &hellip; &Xscr; &Yscr; &Zscr;
+		</p>
+		
+		<h10><b><i>APPLYING CSS TO YOUR DOCUMENT</b></i></h10>
+		<!-- In the paragraph text, the lines are too close together, there is not enought spaces betwen lines; I wanna go to fix that, but I don't wanna change my main.css; Instead i'm gonna do this: I'm gonna go in the <head> tag and we put some <style> sheet: p { line-height: 2.1} </style>; and after that I'm gonna come down to my paragraph and I will introduce my <style> in paragraph: "<p style="line-height:2.1;">"  -->
+		<p style="line-height: 2.1;">
+	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magna  aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+	        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      	</p>
+      	<!-- The first line from the paragraph I want to make smaller. (small caps). For that I'm gonna go in the <head> tag and we put again some <style> sheet: p.first-line{font variant:small-caps} </style>; and after that I'm gonna come down to my paragraph and I will introduce my <style> in paragraph: "<p style="first">"  -->
+      	<p class="first";>
+	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magna  aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+	        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      	</p>
+
+      	<h11><b> ADDING SCRIPT ELEMENTS </b></h11>
+      	<!-- The script element is used for including SCRIPTing language code in your HTML -->
+      	<p><b> The count is: <span id="output">0</span> </b></p>
+
+      	<h12><b> USING the META tag </b></h12>
+      	<!-- The META tag is used for describing aspects of your HTML document -->
+      	<!-- Another common use of the META tag, is to simulate http HEADERS; this is done with the atribute: <meta http-equiv="refresh" content="3; url="https://ro.wikipedia.org/wiki/Pagina_principal%C4%83" />... so what this all do is it we wait 3 seconds and then redirect this page to another page -->
+      	<!-- The META tag is used to described various aspects of your html page. It's commonly for other properties of the page and also for helping search engines to properly catogories your page. -->
+      	
 	</body>
 </html>
