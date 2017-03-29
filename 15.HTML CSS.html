@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+	body {background-color: powderblue;}
+	#x03 {color:blue;}
+	p {color:black;}
+	h3 {color:green; font-family:verdana; font-size: 300%;}
+	#x01{color:black;font-family:courier; font-size: 160%;}
+	p{border: 1px solid red; margin: 30px;}
+	#x02{border: 1px solid black; padding:30px;}
+	p.mad {color:blue;}
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="http://www.w3schools.com/html/styles.css">
+	<link rel="stylesheet" href="/html/styles.css">
+	<link rel="stylesheet" href="style.css">
+</style>
+</head>
+
+<body>
+	<h2>Styling HTML with CSS</h2>
+	<p><b>CSS</b> stants for <b>C</b>ascading <b>S</b>tyle <b>S</b>heets<br>
+	CSS can be added to HTML elements in 3 ways:<br>
+	<b>Inline</b>-by using the style attribute in HTML elements<br>
+	<b>Internal</b>-by using a < style > element in the < head > section<br>
+	<b>Inline</b>-by using an external CSS file
+	</p>
+	
+	<p>This example sets the color of the < h2 > element to blue:</p>
+	<h2 style="color:blue">This is a blue Heading</h2>
+	
+	<p>An internal CSS is used to define a style for a single HTML page.<br>
+	An internal CSS is defined in the < head > section of an HTML page, within a < style > element:</p>
+	<h1>This is a heading</h1>
+	<p>This is a paragraph.</p>
+
+	<h2>External CSS</h2>
+	<p>An external style sheet is used to define the style for mani HTML pages.<br>
+	<b>With an external style sheet, you can change the look of an entire website, by changing one file!</b>
+	To use an external style sheet, add a link to it in the < head > section of the HTML page.
+	</p>
+
+	<h3>CSS Fonts</h3>
+	<p id="x01">The CSS <b>color</b> property defines the text color to be used.<br>
+	The CSS <b>font-family</b> property defines the font to be used.
+	The CSS <b>font-size</b> property defines the text size to be used.
+	</p>
+
+	<h2>CSS Border</h2>
+	<p> The CSS <b>border</b> property defines a border around an HTML element:
+
+	<h2>CSS Padding</h2>
+	<p id="x02">The Css <b>padding</b> property defines a padding (space) betwen the text and the border:</p>
+
+	<h2>CSS Margin</h2>
+	<p>The CSS margin property defines a margin (space) outside the border.
+
+	<h2>The ID Attribute</h2>
+	<p>To define a specific style for one special element, add an id attribute to the element.
+	   The id of an element should be unique within a page, so the id selector is used to select unique element!
+	</p>
+
+	<h2>The class Attribute</h2>
+	<p>To define a style for a special type of elements, add class attribute to the element; then define a style for the elements with the specific class.</p>
+	<p class="mad">I am mad/different.</p>
+	<p>This is a paragraph.</p>
+	<p class="mad"> This is a mad paragraph.</p>
+
+	<h2>External References</h2>
+	<p>External style sheet can be referenced with a ful URL or with a path relatve to te current web page. Another example links to a style sheet located in the html folder on the current web site. The third example links to a style sheet located in the same folder as the current page.</p>
+	
+</body>
