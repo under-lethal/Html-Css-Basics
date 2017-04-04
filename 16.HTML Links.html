@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			a: link {color:green; background-color:transparent; text-decoration:none;}
+			a: visited {color:pink; background-color:transparent; text-decoration:none;}
+			a: hover {color:red; background-color:transparent; text-decoration:underline;}
+			a: active {color:yellow; background-color:transparent; text-decoration:underline;}
+		</style>
+	</head>
+
+	<body>
+	   <h1>HTML Links</h1>
+		<!-- The href atribute specifies the destination adress(http://www.w3schools.com/htm) 
+		Clicking on the link text will send you to the specified address.-->
+		<p> <a href="http://www.w3schools.com/html/"> Visit our tutorial</a></p>
+		<p> <a href="html_images.asp">HTML Images</a> is a link to a page on this (local) website. </p>
+		<p> <a href="http://www.w3.org/">W3C</a> is a link to a webisite on the world wide web. </p>
+		<p> _blank - Opens the linked document in a new window or tab</p>
+		<p> <a href="http://www.w3schools.com/" target="_blank">VisitW3Schools!</a></p>
+		<p> _self - Opens the linked document in THE SAME WINDOW TAB as it was clicked.</p>
+		<p> <a href="http://www.w3schools.com/" target="_self">VisitW3Schools!</a></p>
+		<p> _parent - Opens the linked document in the parent frame </p>
+		<p> <a href="http://www.w3schools.com/" target="_parent">VisitW3Schools!</a></p>
+		<p> _top - Opens the linked document in the full body of the window </p>
+		
+		<h3> HTML Links - Image as Link </h3>
+		<p> This image is a link. You can click on it. </p>
+		<a href= "default.asp">
+		<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42;border:0">
+		</a>
+		<p> We have added "border:0" to prevent IE9 (and earlier) from displaying a border around the image. </p>
+	   
+	   <h2> Create a Bookmark </h2>
+	   <!-- HTML Bookmarks are used to allow reader to jump to a specific parts of a WEB page
+	   		To create a bookmark, you must first create the bookmark, and then add a link to it.
+	   		When the link is clicked, the page will scroll to the location with the bookmark. -->
+	    <p><a href="#C4"> Jump to Chapter 4</a></p>
+	    <h2>Chapter 1</h2>
+		<p>This chapter explains ba bla bla</p>
+
+		<h2>Chapter 2</h2>
+		<p>This chapter explains ba bla bla</p>
+
+		<h2>Chapter 3</h2>
+		<p>This chapter explains ba bla bla</p>
+
+		<h2 id="C4">Chapter 4</h2>
+		<p>This chapter explains ba bla bla</p>
+
+		<h2>Chapter 5</h2>
+		<p>This chapter explains ba bla bla</p>
+
+		<h2>Chapter 6</h2>
+		<p>This chapter explains ba bla bla</p>
+
+		<h2> HTML Link Colors </h2>
+		<p>
+		   An unvisted link is underlined and blue.
+		   A visited link is underlined and purple.
+		   An active link is underlined and red.
+		</p>   
+		<p> You can change the default colors of links. </p>
+		
+		<a href="html_images.asp" target="_blank">HTML Images </a>
+
+
+	</body>
+	</html>
