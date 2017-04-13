@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		/*ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden; background-color: #333333;}
+		li {float: left;}
+		li a { display: block;color: white;text-align: center;padding: 16px; text-decoration: none }
+		li a:hover {background-color: #111111;}*/
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#news">News</a></li>
+		<li><a href="#contact">Contat</a></li>
+		<li><a href="#about">About</a></li>
+	</ul>
+	<h2>HTML Lists</h2>
+	<h2>Unordered HTML List</h2>
+	<p>An unordered list starts with the <strong>&lt;ul&gt;</strong><br>
+	The list items will be marked with bullets(small black circles) by default:<br>
+	Example:
+	</p>
+	<ul>
+		<li>Coffe</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ul>
+
+	<h2>Unordered HTML List - Choose List Item Marger</h2>
+	<p>The CSS list-style-type property is used to define the style of the list item marker:<br>
+	<strong>disc</strong> - Sets the list item marker to a bullet (default)<br>
+	<strong>circle</strong> - Sets the list utem marker to a circle<br>
+	<strong>square</strong> - Sets the lists item marker to a square<br>
+	<strong>none</strong> - The list items will not be marked</p>
+	<p><strong>Example - Square</strong></p>
+	<ul style="list-style-type: square">
+		<li>Coffe</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ul>
+	<p><strong>Example - None</strong></p>
+	<ul style="list-style-type: none">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ul>
+
+	<h2>Oredered HTML List</h2>
+	<p>An oredered list starts with the <strong>&lt;ol&gt; </strong>tag. Each list item starts with the <strong>< li ></strong>tag.<br>
+	The list items will be marked with numbers by default:
+	</p>
+	<ol>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+
+	<h2>Ordered HTML List - The Type Attribute</h2>
+	<p>The <strong>type</strong> attribute of the < ol > tag, defines the type of the list item maker:<br>
+	type="1" The list items will be numbered with numbers (default)<br>
+	type="A" The list items will be numbered with uppercase letters<br>
+	type="a" The list items will be numbered with lowercase letters<br>
+	type="I" The list items will be numbered with uppercase roman letters<br>
+	type="i" The list items will be numbered with lowercase roman letters<br>
+	Example:<br>
+	<strong>Uppercase Roman Numbers:</strong>
+	</p>
+	<ol type="I">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+
+	<h2>HTML Description Lists</h2>
+	<p>HTML also supports description lists<br>
+	A description list is a list of terms, with a description of each term.
+	The <strong>&lt;dl&gt;</strong> tag defines the discriptiom list, the <strong>< dt ></strong>tag defines the term (name), and the <strong>&lt;dd&gt;</strong>tag describes each term:
+	</p>
+	<dl>
+		<dt>Coffee</dt>
+		<dd>- black hot drink</dd>
+		<dt>Milk</dt>
+		<dd>- white cold drink</dd>
+	</dl>
+
+	<p><strong>Nested List</strong></p>
+	<ul>
+		<li>Coffee</li>
+		<li>Tea
+			<ul>
+				<li>Black Tea</li>
+				<li>Green Tea</li>
+			</ul>
+		</li>
+		<li>Milk</li>
+	</ul>
+
+	<h2>Horizontal Lists</h2>
+	<p>HTML lists can be styled in many different ways with CSS.<br>
+	One popular way is to style a list horizontally, to create a menu:</p>
+	
+</body>
+</html>
