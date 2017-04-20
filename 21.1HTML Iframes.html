@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h2>HTML Iframes</h2>
+	<p>An iframe is used to display a web page within a web page.</p>
+
+	<h2>Iframe Syntax</h2>
+	<p>An HTML iframe is defined with the <b>&lt;iframe&gt;</b> tag:<br>
+	The <b>src</b> attribute specifies the URL (web adress) of the inline frame page
+	</p>
+	<h2>Set Height and Width</h2>
+	<p> Use the <b>height</b> and <b>width</b> attributes to specify the size of the iframe.
+	The attribute values are specified in pixels by default, but they can also be in percent (like "80%").<br>
+	Example:
+	</p>
+	<iframe src="demo_iframe.htm" height="500" width="300"></iframe>
+
+	<h2>Target for a Link</h2>
+	<p>An iframe can be used as the target frame for a link.<br>
+	The <b>target</b> attribute of the link must refer to the <b>name</b> attribute of the irfame:</p>
+
+	<h2>Remove the border</h2>
+	<p>By default, an inframe has a bprder around it.<br>
+	To remove the boder, add the <b>style</b> attribute and use CSS <b>border</b> property:</p>
+	<iframe src="demo_iframe.htm" style="border: none;"></iframe>
+	<p>With CSS, you can also change the sizem style and color of the iframe's border:</p>
+	<iframe src="demo_iframe.htm" style="border: 2px solid gray;"></iframe>
+
+	<h2>Target for a Link</h2>
+	<p> An iframe cam be used as the target frame for a link.<br>
+	The <b>target</b> attribute of the link must refer to the <b>name</b> attribute of the iframe:</p>
+	<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+	<p><a href="http://www.w3schools.com" target="iframe_a">W3Schools.com</p>
+</body>
